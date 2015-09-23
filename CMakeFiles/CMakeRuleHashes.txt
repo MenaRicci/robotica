@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+06872ff1f10f3674d9fcb35d523c1a8a moc_MyQTimer.cxx
+a1a72db42ac29bc262b84d3427cab00a moc_ejemplo1.cxx
+98c42469443efab866b8d8b8c4fd7d5a ui_counterDlg.h

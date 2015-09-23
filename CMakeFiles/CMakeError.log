@@ -1,0 +1,204 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2371963137/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2371963137.dir/build.make CMakeFiles/cmTryCompileExec2371963137.dir/build
+make[1]: Entering directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2371963137.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2371963137.dir/CheckSymbolExists.cxx.o -c /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec2371963137.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2371963137.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2371963137.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2371963137/fast' failed
+make: *** [cmTryCompileExec2371963137/fast] Error 2
+
+File /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec299718575/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec299718575.dir/build.make CMakeFiles/cmTryCompileExec299718575.dir/build
+make[1]: Entering directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec299718575.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec299718575.dir/CheckSymbolExists.cxx.o -c /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec299718575.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec299718575.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec299718575.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec299718575/fast' failed
+make: *** [cmTryCompileExec299718575/fast] Error 2
+
+File /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4247544481/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4247544481.dir/build.make CMakeFiles/cmTryCompileExec4247544481.dir/build
+make[1]: Entering directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4247544481.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4247544481.dir/CheckSymbolExists.cxx.o -c /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec4247544481.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4247544481.dir/CheckSymbolExists.cxx.o' failed
+make[1]: Leaving directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4247544481.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec4247544481/fast' failed
+make: *** [cmTryCompileExec4247544481/fast] Error 2
+
+File /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1399747232/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1399747232.dir/build.make CMakeFiles/cmTryCompileExec1399747232.dir/build
+make[1]: Entering directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1399747232.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1399747232.dir/CheckSymbolExists.cxx.o -c /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec1399747232.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1399747232.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1399747232.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1399747232/fast' failed
+make: *** [cmTryCompileExec1399747232/fast] Error 2
+
+File /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2107372861/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2107372861.dir/build.make CMakeFiles/cmTryCompileExec2107372861.dir/build
+make[1]: Entering directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2107372861.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2107372861.dir/CheckSymbolExists.cxx.o -c /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec2107372861.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2107372861.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2107372861.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2107372861/fast' failed
+make: *** [cmTryCompileExec2107372861/fast] Error 2
+
+File /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2076935239/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2076935239.dir/build.make CMakeFiles/cmTryCompileExec2076935239.dir/build
+make[1]: Entering directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2076935239.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2076935239.dir/CheckSymbolExists.cxx.o -c /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec2076935239.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2076935239.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2076935239.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2076935239/fast' failed
+make: *** [cmTryCompileExec2076935239/fast] Error 2
+
+File /home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

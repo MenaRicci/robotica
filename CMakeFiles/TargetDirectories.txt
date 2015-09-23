@@ -1,0 +1,1 @@
+/home/salabeta/salabeta/proyectoRobot/robotica/CMakeFiles/ejemplo1.dir
